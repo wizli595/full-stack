@@ -6,8 +6,9 @@ const ListPost = () => {
     const [posts, setPosts] = useState({});
     const getData = async () => {
         try {
-            const res = await axios.get("http://localhost:4000/posts");
-            setPosts(res.data)
+            const res = await axios.get("http://localhost:4002/posts");
+            setPosts(res.data);
+            console.log(res.data);
         } catch (err) {
             console.log(err)
         }

@@ -5,7 +5,7 @@ const PostCard = ({ post }) => {
     return (<>
         <div style={{ border: "1px solid" }}>
             <h2>{post.title}</h2>
-            <ListComments postId={post.id} />
+            <ListComments comments={post.comments} />
             <CreateComment postId={post.id} />
 
         </div>
