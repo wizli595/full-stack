@@ -1,0 +1,6 @@
+1-enable kubctl 
+2-https://kubernetes.github.io/ingress-nginx/deploy/#quick-start
+3-kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.10.1/deploy/static/provider/cloud/deploy.yaml
+4-https://skaffold.dev/docs/install/
+5 choco ***** skaffold
+6- C:\Windows\System32\drivers\etc> 127.0.0.1  domain.dev
